@@ -7,6 +7,8 @@ import ConditionalRendering from "./tutorial/03-conditional-rendering/starter/01
 import MultipleReturnsFetchData from "./tutorial/03-conditional-rendering/starter/02-multiple-returns-fetch-data";
 import ShortCircutOverview from "./tutorial/03-conditional-rendering/starter/04-short-circuit-overview";
 import ToggleChallange from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
+import UserChallange from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
+// import UserChallangef from "./tutorial/03-conditional-rendering/final/07-user-challenge";
 
 
 function App() {
@@ -19,7 +21,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <ConditionalRendering /> */}
       {/* <MultipleReturnsFetchData /> */}
-      <ToggleChallange />
+      {/* <ToggleChallange /> */}
+      <UserChallange />
     </div>
   );
 }
