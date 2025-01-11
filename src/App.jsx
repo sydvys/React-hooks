@@ -5,6 +5,8 @@ import LatestValue from "./tutorial/01-useState/starter/05-useState-gotcha";
 import UseEffect from "./tutorial/02-useEffect/starter/04-fetch-data";
 import ConditionalRendering from "./tutorial/03-conditional-rendering/starter/01-multiple-returns-basics";
 import MultipleReturnsFetchData from "./tutorial/03-conditional-rendering/starter/02-multiple-returns-fetch-data";
+import ShortCircutOverview from "./tutorial/03-conditional-rendering/starter/04-short-circuit-overview";
+import ToggleChallange from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
 
 
 function App() {
@@ -16,7 +18,8 @@ function App() {
       {/* <LatestValue /> */}
       {/* <UseEffect /> */}
       {/* <ConditionalRendering /> */}
-      <MultipleReturnsFetchData />
+      {/* <MultipleReturnsFetchData /> */}
+      <ToggleChallange />
     </div>
   );
 }
